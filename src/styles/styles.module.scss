@@ -9,7 +9,7 @@
 .form_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  padding-bottom: 50px;
 }
 
 .textarea {
@@ -31,7 +31,9 @@
   border-radius: 16px;
   cursor: pointer;
   align-self: flex-end;
-
+  padding: 0;
+  right: -10px;
+  position: relative;
 }
 
 .form_button:hover {
@@ -66,7 +68,7 @@
   line-height: 58px;
   width: 60px;
   height: 60px;
-  border-radius: 37px;
+  border-radius: 50%;
   color: rgb(255, 255, 255);
   border: none;
   text-align: center;
@@ -76,14 +78,14 @@
   background-color: rgb(247, 167, 7);
   font-size: 18px;
   line-height: 40px;
-  width: 151px;
+  min-width: 130px;
   height: 40px;
   color: rgb(255, 255, 255);
-  border: none;
   text-align: center;
   position: relative;
   left: -10px;
   top: 12px;
+  padding: 0 10px;
 }
 
 .main_comment {

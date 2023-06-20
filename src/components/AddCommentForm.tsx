@@ -27,6 +27,7 @@ export const AddCommentForm: FC<AddCommentFormTypes> = ({activeComment, onCommen
                     value={activeComment}
                     rows={10}>
                 </textarea>
+                {/*the button is located differently than in the example, in order to be visible textarea*/}
                 <button className={styles.form_button}>Send</button>
             </form>
         </div>
